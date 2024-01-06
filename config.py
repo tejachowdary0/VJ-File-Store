@@ -30,15 +30,15 @@ def is_enabled(value, default):
 # Ask Doubt on telegram @KingVJ01
       
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "27604683"))
+API_HASH = environ.get("API_HASH", "ed52a1d0803b2ed84c5cca7f20535aac")
+ADMINS = int(environ.get("ADMINS", "1264280791"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "vjbotz")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://jonnywaker002:WlPnEIcbNTY2jc47@jonny002.fgsyjqw.mongodb.net/?retryWrites=true&w=majority")
+CDB_NAME = environ.get("CDB_NAME", "clonejonny002")
+DB_URI = environ.get("DB_URI", "mongodb+srv://jonnywakker37:skqfQh1bIpA5LlHU@jonny37.g35vo1j.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = environ.get("DB_NAME", "Jonny37bot")
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -46,7 +46,7 @@ DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Local_Moviesbot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -54,8 +54,8 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001831211376"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001942937148')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
